@@ -241,3 +241,12 @@ task javaDocZip(type: Zip, dependsOn: allJavadoc) {
 
 
 
+
+dependencies {
+    compile 'junit:junit:4.12'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+    compile 'org.testng:testng:6.9.6'
+    compile 'org.testng:testng:6.9.6'
+    compile 'junit:junit:4.12'
+    compile 'org.junit.jupiter:junit-jupiter-api'
+}
