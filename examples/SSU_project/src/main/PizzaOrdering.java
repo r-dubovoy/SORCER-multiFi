@@ -11,7 +11,7 @@ public interface PizzaOrdering {
 
     public boolean addIngredient(Pizza p, String ingredient) throws RemoteException;
 
-    public boolean removeIngreadient(Pizza p, String ingredient) throws RemoteException;
+    public boolean removeIngredient(Pizza p, String ingredient) throws RemoteException;
 
     public boolean increasePrice(Pizza p, int inc) throws RemoteException;
 

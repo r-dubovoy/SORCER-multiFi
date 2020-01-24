@@ -28,11 +28,11 @@ public class Pizza {
         this.price = price;
     }
 
-    private void addIngredient(String ingradient){
-        this.Ingredients.add(ingradient);
+    private void addIngredient(String ingredient){
+        this.Ingredients.add(ingredient);
     }
 
-    private void getIngradientByName(){
+    private void getIngredientByName(){
 
     }
 
